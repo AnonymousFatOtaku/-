@@ -3,25 +3,29 @@
 const app = getApp()
 
 Page({
+
   data: {
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
+
   //事件处理函数
   bindViewTap: function () {
     wx.navigateTo({
       url: '../logs/logs'
     })
   },
+
   // 点击开启小程序之旅按钮跳转到list页面
-  handleClick(){
+  handleClick() {
     // 需要回退使用navigateTo，不需要回退使用redirectTo
     wx.navigateTo({
       url: '/pages/list/list',
     })
   },
+
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({
@@ -50,6 +54,7 @@ Page({
       })
     }
   },
+  
   getUserInfo: function (e) {
     console.log(e)
     app.globalData.userInfo = e.detail.userInfo
