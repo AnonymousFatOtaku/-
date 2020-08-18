@@ -1,6 +1,7 @@
 <!--pages/detail/detail.wxml-->
 <view class="detailContainer">
-  <image class="detail_header" src="{{detailObj.detail_img}}"></image>
+  <image class="detail_header" src="{{isPlay? detailObj.music.coverImgUrl:detailObj.detail_img}}"></image>
+  <image catchtap="musicControl" class="musicImg" src="{{isPlay?'/images/music/music-start.png':'/images/music/music-stop.png'}}"></image>
   <view class="detail_author_date">
     <image src="{{detailObj.avatar}}"></image>
     <text>{{detailObj.author}}</text>
@@ -10,11 +11,11 @@
   <text class="detail_company">{{detailObj.title}}</text>
   <view class="detail_collection_share">
     <view class="col_share_img">
-      <image src="/images/icon/collection-anti.png"></image>
-      <image src="/images/icon/share.png"></image>
+      <image catchtap="handleCollection" src="{{isCollected?'/images/icon/collection.png': '/images/icon/collection-anti.png'}}"></image>
+      <image catchtap="handleShare" src="/images/icon/share.png"></image>
     </view>
     <view class="line"></view>
   </view>
-  <button>转发此文章</button>
+  <button open-type="share">转发此文章</button>
   <text class="detail_content">{{detailObj.detail_content}}</text>
 </view>

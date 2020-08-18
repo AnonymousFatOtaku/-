@@ -11,6 +11,17 @@ Page({
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
 
+  handleParent(){
+		console.log('父元素');
+		// 跳转页面
+		wx.switchTab({
+			url: '/pages/list/list',
+			success(){
+				console.log('跳转成功');
+			}
+		})
+	},
+
   //事件处理函数
   bindViewTap: function () {
     wx.navigateTo({

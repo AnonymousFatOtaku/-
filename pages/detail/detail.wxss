@@ -9,6 +9,15 @@
   height:460rpx;
 }
 
+.musicImg {
+  width:60rpx;
+  height:60rpx;
+  position: absolute;
+  left:50%;
+  top:200rpx;
+  margin-left: -30rpx;
+}
+
 .detail_author_date {
   padding:10rpx;
 }
@@ -36,6 +45,7 @@
   position: relative;
 }
 
+
 .col_share_img {
   float: right;
   margin-right: 60rpx;
@@ -46,6 +56,7 @@
   height:90rpx;
   margin-right:10rpx;
 }
+
 
 .line {
   position: absolute;
