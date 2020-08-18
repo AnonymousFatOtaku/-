@@ -16,8 +16,8 @@ let list_data = [
     attention_count: 66,
     detail: '钢铁战队。。',
     music: {
-      dataUrl: 'http://up.mcyt.net/down/46100.mp3', // 音乐链接
-      title: 'IF-Ken Arai',   // 音乐标题
+      dataUrl: 'http://music.163.com/song/media/outer/url?id=3968341.mp3', // 音乐链接
+      title: 'Солнца Свет',   // 音乐标题
       coverImgUrl: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
     },
     postId: 0
@@ -38,8 +38,8 @@ let list_data = [
     attention_count: 66,
     detail: '有魅力的老男人。',
     music: {
-      dataUrl: 'http://www.ytmp3.cn/down/50395.mp3', // 音乐链接
-      title: '一路向北',   // 音乐标题
+      dataUrl: 'http://music.163.com/song/media/outer/url?id=3968341.mp3', // 音乐链接
+      title: 'Солнца Свет',   // 音乐标题
       coverImgUrl: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
     },
     postId: 1
@@ -60,8 +60,8 @@ let list_data = [
     attention_count: 66,
     detail: '巨无霸教授。',
     music: {
-      dataUrl: 'http://www.ytmp3.cn/down/50355.mp3', // 音乐链接
-      title: '听海',   // 音乐标题
+      dataUrl: 'http://music.163.com/song/media/outer/url?id=3968341.mp3', // 音乐链接
+      title: 'Солнца Свет',   // 音乐标题
       coverImgUrl: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
     },
     postId: 2
@@ -79,8 +79,8 @@ let list_data = [
     attention_count: 88,
     avatar: '/images/avatar/1.png',
     music: {
-      dataUrl: 'http://up.mcyt.net/down/46101.mp3', // 音乐链接
-      title: 'Sunset Jesus-Avicii',   // 音乐标题
+      dataUrl: 'http://music.163.com/song/media/outer/url?id=3968341.mp3', // 音乐链接
+      title: 'Солнца Свет',   // 音乐标题
       coverImgUrl: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
     },
     postId: 3
@@ -98,8 +98,8 @@ let list_data = [
     author: '新华社',
     avatar: '/images/avatar/2.png',
     music: {
-      dataUrl: 'http://up.mcyt.net/down/46102.mp3', // 音乐链接
-      title: '汪峰 - 儿时',   // 音乐标题
+      dataUrl: 'http://music.163.com/song/media/outer/url?id=3968341.mp3', // 音乐链接
+      title: 'Солнца Свет',   // 音乐标题
       coverImgUrl: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
     },
     postId: 4
@@ -119,8 +119,8 @@ let list_data = [
     attention_count: 66,
     detail: '女神。。。',
     music: {
-      dataUrl: 'http://up.mcyt.net/down/46110.mp3', // 音乐链接
-      title: '曲婉婷 - 我的歌声里-(电视剧《在线爱》主题曲)',   // 音乐标题
+      dataUrl: 'http://music.163.com/song/media/outer/url?id=3968341.mp3', // 音乐链接
+      title: 'Солнца Свет',   // 音乐标题
       coverImgUrl: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
     },
     postId: 5
@@ -140,8 +140,8 @@ let list_data = [
     attention_count: 66,
     detail: '女神2。。。',
     music: {
-      dataUrl: 'http://up.mcyt.net/down/46100.mp3', // 音乐链接
-      title: 'IF-Ken Arai',   // 音乐标题
+      dataUrl: 'http://music.163.com/song/media/outer/url?id=3968341.mp3', // 音乐链接
+      title: 'Солнца Свет',   // 音乐标题
       coverImgUrl: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
     },
     postId: 6
