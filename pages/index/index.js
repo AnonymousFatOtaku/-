@@ -8,11 +8,12 @@ Page({
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    isShow:true
   },
 
   handleParent(){
-		console.log('父元素');
+		// console.log('父元素');
 		// 跳转页面
 		wx.switchTab({
 			url: '/pages/list/list',
@@ -20,7 +21,15 @@ Page({
 				console.log('跳转成功');
 			}
 		})
-	},
+  },
+  
+  handleGetUserInfo(data){
+    // 判断用户点击的是允许还是拒绝
+    if(data.detail.rawData){
+      // 如果点击允许则重新onLoad
+      this.onLoad();
+    }
+  },
 
   //事件处理函数
   bindViewTap: function () {
@@ -64,6 +73,23 @@ Page({
         }
       })
     }
+
+    // 判断用户是否登录
+    wx.getSetting({
+      success:(data)=>{
+        if(data.authSetting['scope.userInfo']){
+          // 已登录则不显示登录按钮
+          this.setData({
+            isShow:false
+          });
+        }else{
+          // 未登录则显示登录按钮
+          this.setData({
+            isShow:true
+          });
+        }
+      }
+    })
   },
   
   getUserInfo: function (e) {

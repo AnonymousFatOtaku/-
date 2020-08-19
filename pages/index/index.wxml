@@ -2,6 +2,7 @@
 <view class='container'>
 	<image src='{{userInfo.avatarUrl}}'></image>
 	<text class='username'><text>hello</text> {{userInfo.nickName}}</text>
+	<button bindgetuserinfo="handleGetUserInfo" style='display:{{isShow?"block":"none"}}' open-type='getUserInfo'>登录</button>
 	<view bindtap='handleParent' class='goStudy'>
 		<text>开启小程序之旅</text>
 	</view>

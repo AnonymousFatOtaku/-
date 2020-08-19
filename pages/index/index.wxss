@@ -32,3 +32,9 @@ page {
 	line-height: 80rpx;
 	text-align: center;
 }
+
+button{
+	font-size: 32rpx;
+	border: 1px solid #999;
+	background: #8ed145;
+}
